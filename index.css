@@ -1,20 +1,10 @@
-/* .row {
-    display: table;
-}
-
-[class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-} */
-
 .profile__sidebar {
     text-align: left;
     height: 100%;
 }
 
 .profile__sidebar_content {
-    padding-left: 1em;
+    padding-left: 1rem;
 }
 
 .profile__sidebar_img {
@@ -34,11 +24,11 @@
 
 .profile__sidebar_name {
     font-weight: 600;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .profile__sidebar_list {
-    margin-top: 1em;
+    margin-top: 1rem;
     list-style: none;
     text-align: left;
 }
@@ -57,8 +47,26 @@
 }
 
 .projects__info_list {
-    margin-top: 1em;
+    margin-top: 1rem;
     list-style: none;
     text-align: left;
     padding-left: 0;
+}
+
+.projects__category_header {
+    margin-top: 1.5rem;
+}
+
+.projects__name_header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.projects__info_list_item {
+    display: inline-block;
+}
+
+.projects__info_list_item_nxt {
+    padding-left: 0.5rem;
 }
