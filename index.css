@@ -33,6 +33,10 @@
     text-align: left;
 }
 
+.projects__entry {
+    margin-top: 1.5rem;
+}
+
 .projects__separator_p {
     margin-bottom: 0;
 }
@@ -58,8 +62,11 @@
 }
 
 .projects__name_header {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     margin-bottom: 1rem;
+}
+
+.projects__name_subheader {
     font-style: italic;
 }
 
